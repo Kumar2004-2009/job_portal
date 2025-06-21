@@ -10,7 +10,7 @@ const Navbar = () => {
   const {setShowRecruiterLogin} =useContext(AppContext)
 
   return (
-    <div className="shadow py-4">
+    <div className="bg-[#101218] shadow shadow-white py-4 text-white">
       <div className="container px-4 2xl:px-20 mx-auto flex justify-between items-center">
         <img onClick={() => navigate("/")} className="w-42 cursor-pointer" src="/logo.png" alt="" />
         {user ? (
@@ -23,8 +23,8 @@ const Navbar = () => {
             <UserButton/>
           </div>
         ) : (
-          <div className="flex gap-4 max-sm:text-xs">
-            <button onClick={(e) => setShowRecruiterLogin(true)} className="text-gray-600 cursor-pointer">
+          <div className="flex gap-4 max-sm:text-xs ">
+            <button onClick={(e) => setShowRecruiterLogin(true)} className="text-gray-400 cursor-pointer">
               Recruiter Login
             </button>
             <button

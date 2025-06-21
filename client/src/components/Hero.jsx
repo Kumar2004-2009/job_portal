@@ -55,7 +55,7 @@ const Hero = () => {
 
       <div className="border border-gray-300 shadow-md mx-2 mt-5 p-6 rounded-md overflow-hidden">
         <div className="flex items-center">
-          <p className="font-medium whitespace-nowrap mr-10">Trusted by</p>
+          <p className="font-medium whitespace-nowrap mr-10 text-white">Trusted by</p>
           <div className="flex items-center overflow-hidden">
             <div className="flex items-center justify-around gap-16 animate-marquee whitespace-nowrap">
               <img

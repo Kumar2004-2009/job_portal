@@ -3,6 +3,8 @@ import search_icon from "./search_icon.svg";
 import company_icon from "./company_icon.svg";
 import microsoft_logo from "./microsoft_logo.svg";
 import linkedin_logo from "./linkedin_logo.png";
+import github_icon from "./github_icon.svg";
+import linkedin_icon from "./linkedin_icon.svg";
 import google from "./google_logo.png";
 import walmart_logo from "./walmart_logo.svg";
 import accenture_logo from "./accenture_logo.png";
@@ -73,7 +75,9 @@ export const assets = {
     lock_icon,
     samsung_logo,
     adobe_logo,
-    amazon_logo
+    amazon_logo,
+    linkedin_icon,
+    github_icon
 }
 
 export const JobCategories = [
